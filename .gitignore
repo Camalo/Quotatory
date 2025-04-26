@@ -1,0 +1,7 @@
+/.vscode
+/.idea
+
+# конфигурация
+/App/config.json
+/App/Model/temp.sql
+
