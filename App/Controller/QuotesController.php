@@ -14,10 +14,7 @@ class QuotesController
     {
         $this->modelInstance = new QuotesHandler();
     }
-    public function test()
-    {
-        print_r(password_hash("a75eNZTO", PASSWORD_BCRYPT));
-    }
+    
     //А почему может быть протектед
     public function getToken()
     {
